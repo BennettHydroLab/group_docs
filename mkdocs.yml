@@ -1,0 +1,20 @@
+site_name: Bennett Hydrology Research Group Documentation
+theme:
+  name: material
+  icon:
+    logo: material/cactus
+    favicon: material/cactus
+  palette:
+    - scheme: slate
+      toggle:
+        primary: teal
+        accent: indigo
+        icon: material/brightness-7
+    - scheme: default
+      toggle:
+        primary: 
+        accent: indigo
+        icon: material/brightness-4
+  font:
+    text: Inter
+    code: Fira Code
