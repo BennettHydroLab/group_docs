@@ -18,3 +18,9 @@ theme:
   font:
     text: Inter
     code: Fira Code
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - toc:
+      permalink: true
