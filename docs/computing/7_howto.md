@@ -1,5 +1,10 @@
 # Tutorials and how-tos
 
+## Useful snippets
+
+- Testing if your PyTorch installation has CUDA correctly installed: `python -c "import torch; print(torch.cuda.is_available())"`
+- Showing the size of all files/folders in your current directory `for d in $(ls); do du -sh $d; done`
+
 ## Made by the group
 This section is for resources which have been created by members or close collaborators.
 

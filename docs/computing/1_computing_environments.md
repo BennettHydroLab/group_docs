@@ -100,3 +100,27 @@ To access a remote Jupyter server using forwarded ports, you can follow these st
 You should now be able to access and use the remote Jupyter server from your local machine using forwarded ports.
 
 
+## Installing `conda` on remote servers
+
+We suggest you install `conda` using the `miniconda` distribution, which provides a minimal starting set. You can find the official instructions for installing `miniconda` [here](https://docs.anaconda.com/miniconda/)
+
+To install Miniconda on a remote server, follow these steps:
+
+```
+mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm -rf ~/miniconda3/miniconda.sh
+```
+
+Following installation you can initialize `conda` for your shell with:
+
+```
+~/miniconda3/bin/conda init bash
+```
+
+After the initialization, activate the Miniconda environment by running the following command. This step only needs to be done the first time. Alternatively you can simply log out and log back in. This will update your shell with the necessary environment variables.
+
+```
+source ~/.bashrc
+```
