@@ -251,7 +251,7 @@
         
   
   <span class="md-ellipsis">
-    Code of conduct
+    Code of Conduct for members and affiliates
   </span>
   
 
@@ -271,7 +271,7 @@
         
   
   <span class="md-ellipsis">
-    Contributing
+    Contributing to the group docs
   </span>
   
 
@@ -526,6 +526,15 @@
   <a href="#accessing-remote-jupyter-servers" class="md-nav__link">
     <span class="md-ellipsis">
       Accessing remote jupyter servers
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installing-conda-on-remote-servers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installing conda on remote servers
     </span>
   </a>
   
@@ -840,6 +849,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#installing-conda-on-remote-servers" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installing conda on remote servers
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -957,6 +975,20 @@
 </li>
 </ol>
 <p>You should now be able to access and use the remote Jupyter server from your local machine using forwarded ports.</p>
+<h2 id="installing-conda-on-remote-servers">Installing <code>conda</code> on remote servers<a class="headerlink" href="#installing-conda-on-remote-servers" title="Permanent link">&para;</a></h2>
+<p>We suggest you install <code>conda</code> using the <code>miniconda</code> distribution, which provides a minimal starting set. You can find the official instructions for installing <code>miniconda</code> <a href="https://docs.anaconda.com/miniconda/">here</a></p>
+<p>To install Miniconda on a remote server, follow these steps:</p>
+<div class="highlight"><pre><span></span><code>mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm -rf ~/miniconda3/miniconda.sh
+</code></pre></div>
+<p>Following installation you can initialize <code>conda</code> for your shell with:</p>
+<div class="highlight"><pre><span></span><code>~/miniconda3/bin/conda init bash
+</code></pre></div>
+<p>After the initialization, activate the Miniconda environment by running the following command. This step only needs to be done the first time. Alternatively you can simply log out and log back in. This will update your shell with the necessary environment variables.</p>
+<div class="highlight"><pre><span></span><code>source ~/.bashrc
+</code></pre></div>
 
 
 
