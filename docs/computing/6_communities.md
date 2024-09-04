@@ -17,3 +17,4 @@ Please use this section to keep track of University of Arizona specific resource
 - [High Performance Computing](https://public.confluence.arizona.edu/display/UAHPC)
 - [CyVerse](https://cyverse.org/)
 - [Institute for Computation and Data-Enabled Insight](https://datainsight.arizona.edu/)
+- [UA DataLab](https://datascience.arizona.edu/education/uarizona-data-lab)
