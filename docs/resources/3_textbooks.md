@@ -8,6 +8,7 @@
 
 - [Numerical Methods for Scientific Computing](https://www.equalsharepress.com/media/NMFSC.pdf): A comprehensive graduate-level text on the mathematical theory and application of scientific computing algorithms. Other programming language implementations available [here](https://github.com/nmfsc)
 - [Algorithms for Optimization](https://algorithmsbook.com/optimization/files/optimization.pdf): A broad introduction to algorithms for optimal decision making under uncertainty. 
+- [The Matrix Cookbook](https://www.math.uwaterloo.ca/~hwolkowi/matrixcookbook.pdf): A collection of facts, identities, and relationships for matrices.
 
 ## Hydrology
 
