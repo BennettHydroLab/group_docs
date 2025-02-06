@@ -24,3 +24,9 @@
 ## Data visualization
 
 - [Scientific Visualization: Python + Matplotlib](https://github.com/rougier/scientific-visualization-book): An open access book on scientific visualization using python and matplotlib 
+
+
+## General science
+
+- [The Art of Insight in Science and Engineering](https://ocw.mit.edu/courses/res-6-011-the-art-of-insight-in-science-and-engineering-mastering-complexity-fall-2014/3bca850386a3005c22134fa62fb3bad5_MITRES_6-011F14_art_insfin.pdf): A book on the art of insight in science and engineering, with a focus on managing complexity and problem-solving.
+- [The Art of Doing Science and Engineering](https://worrydream.com/refs/Hamming_1997_-_The_Art_of_Doing_Science_and_Engineering.pdf): Insights from the career of Richard Hamming, a mathematician and computer scientist who worked at Bell Labs.
